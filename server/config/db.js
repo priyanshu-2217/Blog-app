@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const connectToMongo = async () => {
   try {
     const res = await mongoose.connect(
-      "mongodb://127.0.0.1:27017/blog-mern-project"
+      "mongodb+srv://priyan90204:hello5@cluster0.2bqs9.mongodb.net/"
     );
 
     if (res) {
